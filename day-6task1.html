@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 5px;
+        color: white;
+        font-size: 2rem;
+        position: static;
+        padding: 2%;
+        height: 90vh;
+        width: 50vw;
+       }
+       .item1{
+        grid-column: 1/4;
+        border-radius: 10px;
+        border:5px solid black;
+        background-color: blueviolet;
+       }
+       .item2{
+        grid-row: 2/4;
+        background-color: aqua;
+        border-radius: 10px;
+        border: 5px solid black;
+       }
+       .item3{
+        grid-column: 2/4;
+        border-radius: 10px;
+        background-color:  blue;
+        border: 5px solid black;
+       }
+       .item4{
+        grid-column: 2/3;
+        border-radius: 10px;
+        border:5px solid black;
+        background-color: blue;
+       }
+       .item5{
+        grid-column: 3/4;
+        border-radius: 10px;
+        border:5px solid black;
+        background-color: blue;
+       }
+       .item6{
+        grid-column: 1/4;
+        border-radius: 10px;
+        border:5px solid black;
+        background-color: blueviolet;
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+   <div class="item1"><center>Header</center></div>
+   <div class="item2"><center>Sidebar</center></div>
+   <div class="item3"><center>Content-1</center></div>
+   <div class="item4"><center>Content-2</center></div>
+   <div class="item5"><center>Content-3</center></div>
+   <div class="item6"><center>footer</center></div>
+   </div>
+</body>
+</html>
